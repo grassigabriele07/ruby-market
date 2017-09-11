@@ -14,12 +14,14 @@
 
     <%= render 'layouts/header' %>
 
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
     <main>
       <%= yield %>
     </main>
 
     <%= render 'layouts/footer' %>
-
 
     <script type="text/javascript">
       $(".button-collapse").sideNav();

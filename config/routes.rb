@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   #controller pages imposto l'homepage
   root 'pages#home'
 
