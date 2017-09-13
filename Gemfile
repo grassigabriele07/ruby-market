@@ -35,14 +35,16 @@ gem 'jbuilder', '~> 2.5'
 
 # jquery-rails
 gem 'jquery-rails'
-# materialize-sass
-gem 'materialize-sass'
 # jquery-turbolinks
 gem 'jquery-turbolinks'
+# materialize-sass
+gem 'materialize-sass'
 
 #devise per autenticazione
 gem 'devise', github: 'plataformatec/devise'
 gem 'erubis'
+# perperclip per gestione immagini
+gem "paperclip", "~> 5.0.0"
 
 
 group :development, :test do
