@@ -40,11 +40,22 @@ gem 'jquery-turbolinks'
 # materialize-sass
 gem 'materialize-sass'
 
+gem 'will_paginate', '~> 3.1.0'
+
+gem 'will_paginate-materialize'
+
+# Gemfile
+gem 'friendly_id', '~> 5.1.0' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
+
+gem 'dotenv-rails', groups: [:development, :test]
+
 #devise per autenticazione
 gem 'devise', github: 'plataformatec/devise'
 gem 'erubis'
 # perperclip per gestione immagini
 gem "paperclip", "~> 5.0.0"
+
+
 
 
 group :development, :test do
